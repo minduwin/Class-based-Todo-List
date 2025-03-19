@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Iansui&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(src/assets/yell.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.titleH1 {
+    color: #474646;
+    font-size: 4em;
+    font-weight: 400;
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+}
+
+.inputVal {
+    margin: 10px 0px;
+}
+
+.inputVal input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.inputVal button {
+    margin-left: 5px;
+    padding: 5px 15px;
+    border: none;
+    background-color: #155263;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.inputVal button:hover {
+    border: none;
+    background-color: #3899b4;
+    color: black;
+}
+
+.subtitleH4 {
+    font-family: 'Pacifico', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: center;
+    color: #474646;
+}
+
+.container {
+    width: 350px;
+    min-height: 500px;
+    background-color: #ffffffe1;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: 5px auto;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+li {
+   list-style-type: none;
+   margin: 5px 0px; 
+}
+
+.controlBtn {
+    display: flex;
+}
+
+.controlBtn input {
+    border-radius: 5px;
+    padding: 2px 3px;
+}
+
+.secondControl {
+    display: block;
+    margin-left: auto;
+}
+
+.controlBtn h4 {
+    color: #474646;
+    font-family: 'Iansui', sans-serif;
+    font-weight: 600;
+}
+
+.secondControl button {
+    margin: 0px 3px;
+    padding: 3px 5px;
+    font-size: 0.7em;
+    border-radius: 5px;
+    border: none;
+}
+
+.firstControl {
+    display: block;
+    margin-left: auto;
+}
+
+.firstControl button {
+    margin: 0px 3px;
+    padding: 3px 5px;
+    font-size: 0.7em;
+    border-radius: 5px;
+    border: none;
+}
+
+.editBtn {
+    background-color: #155263;
+    color: #fff;
+}
+
+.editBtn:hover {
+    background-color: #3899b4;
+}
+
+.delBtn {
+    background-color: #fc5214;
+    color: #fff;
+}
+
+.delBtn:hover {
+    background-color: red;
+}
+
+.countTask {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 1em;
+    font-family: 'Iansui', sans-serif;
+    font-weight: 600;
+    color: #155263;
+}
